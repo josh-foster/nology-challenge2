@@ -1,0 +1,88 @@
+body{
+    min-width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+}
+
+.info{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+    padding-top: 86vh;
+}
+
+.info a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.info p{
+   font-size: 1.5626rem;
+   font-family: 'Courier New', Courier, monospace;
+   color:white;
+
+   
+}
+
+
+.middletext p{
+    font-size: 1.875rem;
+}
+
+.middletext{
+    transform: translate(0, -1.25%);
+}
+
+.lefttext p{
+    color:rgba(255, 255, 255, 0.897)
+}
+
+.righttext p{
+    
+    color:rgba(255, 255, 255, 0.897)
+}
+
+.videobg{
+    
+    
+    z-index: -1;
+   
+}
+
+.videobg video{
+    
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: translate(0%,-8.5%);
+    position: fixed;
+   
+    
+
+}
+
+a{
+
+    transition: color 0.5s;
+    transition: font-size 0.5s ;
+}
+
+.righttext:hover a{
+
+    color: red;
+    font-size: 30px;
+    
+
+}
+
